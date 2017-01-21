@@ -1,4 +1,6 @@
-This is a proof of concept example of an application that leverages NodeJS, AppDynamics, Docker, and Alpine Linux.
+This is a proof of concept example of an application that leverages NodeJS, AppDynamics, Docker, and Alpine Linux. 
+All of the NodeJS code is boilerplate except for the addition of the AppDynamics agent configuration.  The bulk
+of the customization is in the Dockerfile.
 
 **To build docker image**
 

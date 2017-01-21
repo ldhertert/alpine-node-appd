@@ -1,7 +1,7 @@
 {
-  "name": "express-mvc",
+  "name": "alpine-node-appd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proof of concept example of an application that leverages NodeJS, AppDynamics, Docker, and Alpine Linux.",
   "main": "index.js",
   "author": "Luke Hertert",
   "license": "ISC",
