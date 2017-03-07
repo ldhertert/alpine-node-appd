@@ -4,7 +4,8 @@ ENV applicationName=Alpine
 ENV tierName=Web
 ENV nodeName=docker
 
-RUN apk add --no-cache libc6-compat bash nodejs
+RUN apk add --no-cache bash nodejs
+RUN apk add --no-cache --force libc6-compat
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
